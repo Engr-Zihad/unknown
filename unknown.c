@@ -2,7 +2,7 @@
 
 void rectangle(){
     double a,b;
-    printf("enter two numbers :\n");
+    printf("enter two numbers :");
     scanf("%lf%lf",&a,&b);
     double area=a*b;
     double perimeter=2*(a+b);
@@ -12,7 +12,7 @@ void rectangle(){
 
 void average(){
     double a,b,c;
-    printf("enter three numbers :\n"); 
+    printf("enter three numbers :"); 
     scanf("%lf%lf%lf",&a,&b,&c);
     double avarage=(a+b+c)/3;
     printf("avarage of three numbers is :%lf\n",avarage);
