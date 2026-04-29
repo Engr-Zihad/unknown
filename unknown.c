@@ -4,7 +4,7 @@ void rectangle(){
     double a,b;
     printf("enter two numbers :");
     scanf("%lf%lf",&a,&b);
-    double area=a*b;
+    double area=.5*a*b;
     double perimeter=2*(a+b);
     printf("area of rectegle is :%lf\n",area);
     printf("perimeter of rectegle is :%lf\n",perimeter);
